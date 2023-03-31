@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    padding: 1rem;
+    width: 100vw;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 75%;
+    justify-content: center;
+}
+
+nav div {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(26, 133, 133);
+}
+
+nav ul li {
+    padding: 0;
+    margin: 0;
+    color: rgb(26, 133, 133);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+.parallax-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parallax-container h1 {
+    color: #003329;
+    font-size: 4rem;
+    position: absolute;
+    top: 40rem;
+    left: 45%;
+    margin: 0;
+}
+
+.parallax-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    /* transition: all 0.2s ease-in; */
+}
+
+.dummy {
+    text-align: center;
+    padding: 1rem;
+}
+
+.dummy p {
+    margin: 4rem 1rem;
+}
+
+footer {
+    background-color: #003329;
+    width: 100%;
+    height: 5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
