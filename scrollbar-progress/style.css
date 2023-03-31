@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav, footer {
+  height: 5rem;
+  background: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+main {
+  margin: 1rem;
+}
+
+.section-container {
+  background: #eee;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.bottom-line {
+  border: none;
+  border-bottom: solid 1px #ccc;
+}
+
+.progress-bar {
+    position: fixed;
+    inset: 0 0 auto;
+    background: rgb(0, 132, 255);
+    height: 4px;
+    /* transition: all 0.2s; */
+    min-width: 2px
+}
